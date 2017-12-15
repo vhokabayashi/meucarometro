@@ -1,0 +1,8 @@
+<p>lista de estudantes</p>
+
+<ul>
+    <li ng-repeat="student in vm.students">
+        {{ $index + 1 }}) {{ student.name }} - {{ student.age }} anos, estuda na {{ student.university }}
+        <button ng-click="vm.deleteStudent($index)">apagar</button>
+    </li>
+</ul>
