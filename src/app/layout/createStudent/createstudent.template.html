@@ -1,1 +1,23 @@
-<p> {{vm.foo}}</p>
+
+    <div layout="row" layout-align="start center">
+    
+    <md-input-container>
+        <label>Nome</label>
+        <input ng-model="vm.description">
+    </md-input-container>
+    
+    <md-input-container>
+        <label>Idade</label>
+        <input ng-model="vm.age">
+    </md-input-container>
+    
+    <md-input-container>
+        <label>Universidade</label> 
+        <input ng-model="vm.university">
+    </md-input-container>
+    
+    <md-button class="md-raised md-primary"ng-click="vm.save()">Salvar</md-button>  
+
+
+</div>
+
