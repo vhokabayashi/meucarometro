@@ -1,0 +1,31 @@
+<md-card>
+    <div layout="row"><p>Editar Estudante</p></div>
+
+    <div layout="row" layout-align="center center">
+    <md-input-container> 
+        <label>Nome</label>
+        <input ng-model='vm.student.name'>
+    </md-input-container>
+    
+    <md-input-container> 
+        <label>Idade</label>
+        <input ng-model='vm.student.age'>
+    </md-input-container>        
+    
+    <md-input-container> 
+        <label>Universidade</label>
+        <input ng-model='vm.student.university'>
+    </md-input-container>
+    
+    <md-button class="md-raised md-primary" ng-click="vm.submit()">Salvar</md-button>  
+    <md-button class="md-raised md-accent" ng-click="vm.cancel()">Cancelar</md-button>  
+    </div>            
+
+
+
+
+
+
+
+
+</md-card>

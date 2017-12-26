@@ -1,0 +1,18 @@
+<md-card>
+    <p>Digitar Login</p>
+
+    <div layout="row" layout-align="center center">
+    <md-input-container> 
+        <label>Usuário</label>
+        <input ng-model='email'>
+    </md-input-container>
+    
+    <md-input-container> 
+        <label>Senha</label>
+        <input type="password" ng-model='password'>
+    </md-input-container>        
+    
+    <md-button class="md-raised md-primary" ng-click="vm.enter(email, password)">Entrar</md-button>  
+
+    </div>            
+</md-card>
